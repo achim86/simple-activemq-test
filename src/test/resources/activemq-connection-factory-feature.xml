@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="xmlunit-1.6" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
+
+    <feature name="activemq-connection-factory">
+        <configfile finalname="deploy/activemq-connection-factory.xml">file:tmp/activemq-connection-factory.xml</configfile>
+    </feature>
+
+</features>
